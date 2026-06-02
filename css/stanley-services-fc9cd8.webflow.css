@@ -5085,10 +5085,17 @@ ul {
     flex-flow: column;
   }
 
+  .service-main-image{
+  width:100%;
+  border-radius:20px;
+  margin-top:20px;  
+  object-fit:cover;
+}
+
   .service-collection-list {
     flex-flow: column;
     display: flex;
-  }
+  } 
 
   .blog-collection-list {
     grid-row-gap: var(--_all-size---padding--padding-tight);
